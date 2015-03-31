@@ -35,7 +35,7 @@ Hit '<ctrl-d>' or 'osgi:shutdown' to shutdown JBoss Fuse.
 JBossFuse:karaf@root> 
 ```
 
-Setelah muncul prompt `JBossFuse:karaf@root>` artinya JBoss Fuse sudah __up and running__
+Setelah muncul prompt `JBossFuse:karaf@root>` artinya JBoss Fuse sudah __up and running__.
 Pada console tersebut kita bisa memberikan perintah untuk mengadministerasi JBoss Fuse server. Kita akan coba memberikan perintah untuk mematikan server dengan perintah berikut:
 
 ```
