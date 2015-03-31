@@ -1,13 +1,12 @@
-# LAB 02 – STARTING THE JBOSS FUSE SERVER FROM THE COMMAND LINE
+# LAB 02 – Menjalankan JBoss Fuse Server dengan Command Line
 
-Open a Terminal window on your machine, and cd to the JBoss Fuse installation directory (e.g.
-`~/Servers/jboss-fuse-6.1.0.redhat-379`). From there, execute `bin/fuse` (or `bin\fuse.bat`) to
-start JBoss Fuse.
+Buka Terminal window di mesin anda, kemudian `cd` ke direktori tempat instalasi JBoss Fuse (yaitu `~/Servers/jboss-fuse-6.1.0.redhat-379`). Dari direktori tersebut, jalankan perintah `bin/fuse` (atau `bin\fuse.bat` jika sistem operasi anda Windows ) untuk memulai menjalankan JBoss Fuse.
 
-By default, JBoss Fuse will start in interactive mode, which means it both starts the server, and displays the
-command Console. There are startup options to refine this, such as `bin/fuse server` to just start the
-server without the Console, and `bin/fuse client` to start just the Console that will connect to a locally
-running server.
+Secara default, JBoss Fuse akan mulai jalan dalam mode interaktif, artinya server akan dijalankan dan kemudian menampilkan command console (prompt).
+
+Jika tidak ingin menjalankan server tanpa masuk ke Console, makan bisa kita jalanakan perintah dengan opsi seperti ini `bin/fuse server` dan untuk menjalankan Console di tempat lain yang akan terkoneksi ke server yang sudah dijalankan kita bisa menjalankan perintah `bin/fuse client`.
+
+Berikut adalah tampilan saat Fuse server sudah jalan dengan mode interaktif.
 
 ```
 Please wait while JBoss Fuse is loading...
@@ -33,13 +32,13 @@ or join an existing Fabric via 'fabric:join [someUrls]'
 
 Hit '<ctrl-d>' or 'osgi:shutdown' to shutdown JBoss Fuse.
 
-JBossFuse:karaf@root> osgi:shutdown -f now
+JBossFuse:karaf@root> 
 ```
 
-At this point, JBoss Fuse is up and running...
-But since we're going to be spending the rest of the time in Fuse IDE, let's shutdown this instance and learn
-how to run JBoss Fuse from within Fuse IDE. Run the following to shut down JBoss Fuse
+Setelah muncul prompt `JBossFuse:karaf@root>` artinya JBoss Fuse sudah __up and running__
+Pada console tersebut kita bisa memberikan perintah untuk mengadministerasi JBoss Fuse server. Kita akan coba memberikan perintah untuk mematikan server dengan perintah berikut:
 
 ```
 osgi:shutdown -f now
 ```
+
