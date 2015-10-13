@@ -127,12 +127,12 @@ Satu Fabric Container yang akan berfungsi sebagai ESB (Camel routing atau servic
 
 	berikut adalah penjelasan port yang digunakan
 
-		63102 - 
-		63117 - 
-		1099  - RMI registry
+		63102 - Random port (Fabric)
+		63117 - Random port (Fabric)
+		1099  - RMI registry (JMX)
 		44444 - RMI server
 		8181  - Port web management console (Hawtio)
-		8101  - Port console (command line)
+		8101  - Port console (command line, SSH connection)
 		61616 - Port A-MQ yang secara default dijalankan
 
 6.  Coba akses ke Fuse Management Console (Hawtio) dengan mengakses lewat browser ke URL berikut
@@ -211,7 +211,7 @@ Satu Fabric Container yang akan berfungsi sebagai ESB (Camel routing atau servic
 	java    36386 fuse1  411u  IPv6 0x46c7edd5afd0f91d      0t0  TCP *:2181 (LISTEN)
 	```
 
-	Ada 2 port tambahan yaitu 64128 dan 2181
+	Ada 2 port tambahan yaitu 64128 (Fabric) dan 2181 (Fabric/Zookeeper Registry Service)
 
 
 9.  Kita lihat daftar container yang terdaftar pada Fuse dengan perintah `fabric:container-list`
