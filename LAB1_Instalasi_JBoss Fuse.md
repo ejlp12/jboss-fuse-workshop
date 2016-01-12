@@ -24,7 +24,7 @@ Dalam tutorial ini akan dijelaskan mengenai cara instalasi dengan arsitektur ter
 
 Kita akan membuat konfigurasi Fuse dengan arsitektur sebagai berikut:
 
-* Satu Fabric Container Server yang diberi nama `root`
+* Satu Fabric Container Server yang diberi nama `root1`
 * Satu Fabric Container yang akan berfungsi sebagai ESB (Camel routing atau service orchestration)
 
 ## Instalasi & Konfigurasi JBoss Fuse
@@ -140,6 +140,13 @@ Kita akan membuat konfigurasi Fuse dengan arsitektur sebagai berikut:
 	[http://localhost:8181](http://localhost:8181)
 
 	Login dengan menggunakan user `admin` dan password `admin`
+	
+	![image](https://cloud.githubusercontent.com/assets/3068071/12263708/0284213a-b964-11e5-8808-00e878572885.png)
+
+	Setelah login, tampilannya akan seperti ini:
+	
+    ![image](https://cloud.githubusercontent.com/assets/3068071/12263721/16876d72-b964-11e5-9f83-282b13415736.png)
+
 
 7. Anda bisa coba juga akses ke Karaf command line dengan perintah berikut
 
