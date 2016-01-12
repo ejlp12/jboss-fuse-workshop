@@ -24,8 +24,8 @@ Dalam tutorial ini akan dijelaskan mengenai cara instalasi dengan arsitektur ter
 
 Kita akan membuat konfigurasi Fuse dengan arsitektur sebagai berikut:
 
-Satu Fabric Container Server yang diberi nama `root`
-Satu Fabric Container yang akan berfungsi sebagai ESB (Camel routing atau service orchestration)
+* Satu Fabric Container Server yang diberi nama `root`
+* Satu Fabric Container yang akan berfungsi sebagai ESB (Camel routing atau service orchestration)
 
 ## Instalasi & Konfigurasi JBoss Fuse
 
